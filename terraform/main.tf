@@ -81,7 +81,7 @@ resource "yandex_compute_instance" "vm" {
       "sudo apt-get update",
       "sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y",
       "sudo usermod -aG docker $USER",
-      "git clone https://github.com/JohnnyKnoxvillee/<...>,
+      "git clone https://github.com/JohnnyKnoxvillee/spring-petclinic_project.git,
       "cd ./spring-petclinic_project/spring-petclinic/",
       "sudo docker network create mysqlnet",
       "sudo docker compose -f docker-compose_app.yml up -d",
