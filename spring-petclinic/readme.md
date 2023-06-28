@@ -109,4 +109,5 @@ This block defines the `mysqlnet` network that will be used to establish communi
 
 Thus, we have provided instructions for building the application image and written a script for its interaction with the environment and the database. In the future, using this configuration, Terraform will build our image and deploy the application with the database in a Docker environment on a remote instance.
 
-[Up](#anchor)
+[Up](#top)
+<a name="top"></a>

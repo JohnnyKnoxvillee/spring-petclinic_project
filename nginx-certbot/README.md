@@ -124,4 +124,5 @@ Make sure to provide the actual domain and email before running the `init_letsen
 
 As a result, we have a deployed application accessible over HTTPS with an automatically updated Let's Encrypt certificate through Certbot. We have automated these processes, making the application's operation continuous and independent of the admin.
 
-[Up](#anchor)
+[Up](#top)
+<a name="top"></a>

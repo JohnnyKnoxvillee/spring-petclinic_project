@@ -3,8 +3,6 @@ WORKDIR ./spring-petclinic
 COPY ./src ./src
 COPY ./pom.xml ./pom.xml
 RUN mvn package
-RUN ls
-RUN ls ./src/
 
 FROM openjdk:17
 COPY --from=builder ./spring-petclinic/target/*.jar /opt/app.jar

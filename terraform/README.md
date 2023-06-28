@@ -102,4 +102,5 @@ mv .terraformrc ~/
 
 This way, the provider is defined, and the working environment is set up on the remote instance. We have configured the CLI, obtained a static IP, and deployed a complete instance with a running application and a database.
 
-[Up](#anchor)
+[Up](#top)
+<a name="top"></a>
