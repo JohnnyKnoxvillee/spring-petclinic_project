@@ -1,3 +1,4 @@
+<a name="top"></a>
 # NGINX/Certbot <img src="https://logodownload.org/wp-content/uploads/2018/03/nginx-logo-1.png" alt="Nginx" width="auto" height="50"> <img src="https://4.bp.blogspot.com/-LWgLSaYn24g/WSv0NWjmQ9I/AAAAAAAAGF4/SSCIQPjN8hIjbz6zgxhkPcGjPHMduCKqACLcB/s1600/certbot-logo.png" alt="Certbot" width="auto" height="50">
 
 The final step in deploying our project is to configure **Nginx** and set up **Certbot** for automatic certificate acquisition and renewal for our server.
@@ -125,4 +126,3 @@ Make sure to provide the actual domain and email before running the `init_letsen
 As a result, we have a deployed application accessible over HTTPS with an automatically updated Let's Encrypt certificate through Certbot. We have automated these processes, making the application's operation continuous and independent of the admin.
 
 [Up](#top)
-<a name="top"></a>

@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Working with Terraform <img src="https://neodoo.es/wp-content/uploads/2020/09/logo_terraform_2-480x480.png" alt="Terraform" width="auto" height="50">
 
 In this part of the project, we will explore working with Terraform, configuring the Yandex Cloud configuration, and automating the infrastructure deployment with a ready-made application and a database in a Docker environment.
@@ -103,4 +104,3 @@ mv .terraformrc ~/
 This way, the provider is defined, and the working environment is set up on the remote instance. We have configured the CLI, obtained a static IP, and deployed a complete instance with a running application and a database.
 
 [Up](#top)
-<a name="top"></a>
